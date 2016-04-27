@@ -1,0 +1,14 @@
+Howdy y'all, so I "made" (copied from Grav) a basic UI for the game. It's just a menu scene that has buttons that will lead to the other 
+scenes. It also has a mute button that will turn the app's sound on and off. Also, if you don't like the image I have for the buttons, 
+feel free to change it. It just has to be the same dimensions as the image already in place and it should be somewhere high on the gray 
+scale so it can be colored. Remember the @2x and @3x files.
+
+I also set up the app icon but I don't know how to get the launch screen image to work (I've always taken the easy route and set it to
+plain black)
+
+As for running the app, I have a developer acount so I can run it on my phone for testing but you guys should be able to download the
+project and run it on the simulator. If you can't, try going to the project file and changing the "Team" field to None. I think there's
+a way that you guys can run the app on your phones without buying a developer account. It may actually be as easy as just pressing the 
+run button with your phone as the target device... I forget. Worst case scenario, I can register your phones on my account and I can
+bring my laptop in and put the app on your phones that way. 
+
