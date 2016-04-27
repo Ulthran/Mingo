@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  GameViewController.swift
 //  Mingo
 //
 //  Created by Charlie Bushman on 4/27/16.
@@ -9,7 +9,7 @@
 import UIKit
 import SpriteKit
 
-class ViewController: UIViewController {
+class GameViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
