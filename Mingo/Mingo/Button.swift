@@ -17,7 +17,6 @@ class Button: SKNode {
         label.zPosition = 1
         
         //set up button
-        let button = SKSpriteNode(imageNamed: "ResizableButton")
         button.color = color
         button.colorBlendFactor = 0.9
         button.centerRect = CGRect(x: 0.42, y: 0.42, width: 0.14, height: 0.14)
