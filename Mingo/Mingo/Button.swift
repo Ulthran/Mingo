@@ -2,12 +2,13 @@ import SpriteKit
 
 class Button: SKNode {
     let onPress: () -> Void
+    let label = SKLabelNode(fontNamed: "HoeflerText-BlackItalic")
+    let button = SKSpriteNode(imageNamed: "ResizableButton")
     
     init(text:String, color:SKColor, onComplete: () -> Void) {
         onPress = onComplete //set func to be run on button press
         
         //set up the text
-        let label = SKLabelNode(fontNamed: "HoeflerText-BlackItalic")
         label.text = text
         label.fontColor = SKColor.blackColor()
         label.fontSize = 15
