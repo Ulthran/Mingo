@@ -1,0 +1,557 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3C71D74F1CD16818003880FA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C71D74E1CD16818003880FA /* AppDelegate.swift */; };
+		3C71D7531CD16818003880FA /* MenuScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C71D7521CD16818003880FA /* MenuScene.swift */; };
+		3C71D7551CD16818003880FA /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C71D7541CD16818003880FA /* GameViewController.swift */; };
+		3C71D7581CD16818003880FA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3C71D7561CD16818003880FA /* Main.storyboard */; };
+		3C71D75A1CD16818003880FA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3C71D7591CD16818003880FA /* Assets.xcassets */; };
+		3C71D75D1CD16818003880FA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3C71D75B1CD16818003880FA /* LaunchScreen.storyboard */; };
+		3C71D7681CD16818003880FA /* MingoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C71D7671CD16818003880FA /* MingoTests.swift */; };
+		3C71D7731CD16818003880FA /* MingoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C71D7721CD16818003880FA /* MingoUITests.swift */; };
+		3C71D7821CD17683003880FA /* Button.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C71D7811CD17683003880FA /* Button.swift */; };
+		3C71D7841CD17749003880FA /* Globals.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C71D7831CD17749003880FA /* Globals.swift */; };
+		3C71D7861CD178A2003880FA /* FinderScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C71D7851CD178A2003880FA /* FinderScene.swift */; };
+		3C71D7881CD17A34003880FA /* HelpScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C71D7871CD17A34003880FA /* HelpScene.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3C71D7641CD16818003880FA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3C71D7431CD16818003880FA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3C71D74A1CD16818003880FA;
+			remoteInfo = Mingo;
+		};
+		3C71D76F1CD16818003880FA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3C71D7431CD16818003880FA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3C71D74A1CD16818003880FA;
+			remoteInfo = Mingo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3C55115B1CD17FB800F83910 /* Mingo.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = Mingo.entitlements; sourceTree = "<group>"; };
+		3C71D74B1CD16818003880FA /* Mingo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Mingo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C71D74E1CD16818003880FA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3C71D7521CD16818003880FA /* MenuScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuScene.swift; sourceTree = "<group>"; };
+		3C71D7541CD16818003880FA /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		3C71D7571CD16818003880FA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3C71D7591CD16818003880FA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3C71D75C1CD16818003880FA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3C71D75E1CD16818003880FA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3C71D7631CD16818003880FA /* MingoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MingoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C71D7671CD16818003880FA /* MingoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MingoTests.swift; sourceTree = "<group>"; };
+		3C71D7691CD16818003880FA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3C71D76E1CD16818003880FA /* MingoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MingoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C71D7721CD16818003880FA /* MingoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MingoUITests.swift; sourceTree = "<group>"; };
+		3C71D7741CD16818003880FA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3C71D7811CD17683003880FA /* Button.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Button.swift; sourceTree = "<group>"; };
+		3C71D7831CD17749003880FA /* Globals.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Globals.swift; sourceTree = "<group>"; };
+		3C71D7851CD178A2003880FA /* FinderScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FinderScene.swift; sourceTree = "<group>"; };
+		3C71D7871CD17A34003880FA /* HelpScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HelpScene.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3C71D7481CD16818003880FA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C71D7601CD16818003880FA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C71D76B1CD16818003880FA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3C71D7421CD16818003880FA = {
+			isa = PBXGroup;
+			children = (
+				3C71D74D1CD16818003880FA /* Mingo */,
+				3C71D7661CD16818003880FA /* MingoTests */,
+				3C71D7711CD16818003880FA /* MingoUITests */,
+				3C71D74C1CD16818003880FA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3C71D74C1CD16818003880FA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3C71D74B1CD16818003880FA /* Mingo.app */,
+				3C71D7631CD16818003880FA /* MingoTests.xctest */,
+				3C71D76E1CD16818003880FA /* MingoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3C71D74D1CD16818003880FA /* Mingo */ = {
+			isa = PBXGroup;
+			children = (
+				3C55115B1CD17FB800F83910 /* Mingo.entitlements */,
+				3C71D74E1CD16818003880FA /* AppDelegate.swift */,
+				3C71D7541CD16818003880FA /* GameViewController.swift */,
+				3C71D7561CD16818003880FA /* Main.storyboard */,
+				3C71D7591CD16818003880FA /* Assets.xcassets */,
+				3C71D75B1CD16818003880FA /* LaunchScreen.storyboard */,
+				3C71D75E1CD16818003880FA /* Info.plist */,
+				3C71D7801CD17664003880FA /* Scenes */,
+				3C71D7811CD17683003880FA /* Button.swift */,
+				3C71D7831CD17749003880FA /* Globals.swift */,
+			);
+			path = Mingo;
+			sourceTree = "<group>";
+		};
+		3C71D7661CD16818003880FA /* MingoTests */ = {
+			isa = PBXGroup;
+			children = (
+				3C71D7671CD16818003880FA /* MingoTests.swift */,
+				3C71D7691CD16818003880FA /* Info.plist */,
+			);
+			path = MingoTests;
+			sourceTree = "<group>";
+		};
+		3C71D7711CD16818003880FA /* MingoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3C71D7721CD16818003880FA /* MingoUITests.swift */,
+				3C71D7741CD16818003880FA /* Info.plist */,
+			);
+			path = MingoUITests;
+			sourceTree = "<group>";
+		};
+		3C71D7801CD17664003880FA /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				3C71D7521CD16818003880FA /* MenuScene.swift */,
+				3C71D7851CD178A2003880FA /* FinderScene.swift */,
+				3C71D7871CD17A34003880FA /* HelpScene.swift */,
+			);
+			name = Scenes;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3C71D74A1CD16818003880FA /* Mingo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3C71D7771CD16818003880FA /* Build configuration list for PBXNativeTarget "Mingo" */;
+			buildPhases = (
+				3C71D7471CD16818003880FA /* Sources */,
+				3C71D7481CD16818003880FA /* Frameworks */,
+				3C71D7491CD16818003880FA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Mingo;
+			productName = Mingo;
+			productReference = 3C71D74B1CD16818003880FA /* Mingo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3C71D7621CD16818003880FA /* MingoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3C71D77A1CD16818003880FA /* Build configuration list for PBXNativeTarget "MingoTests" */;
+			buildPhases = (
+				3C71D75F1CD16818003880FA /* Sources */,
+				3C71D7601CD16818003880FA /* Frameworks */,
+				3C71D7611CD16818003880FA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3C71D7651CD16818003880FA /* PBXTargetDependency */,
+			);
+			name = MingoTests;
+			productName = MingoTests;
+			productReference = 3C71D7631CD16818003880FA /* MingoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3C71D76D1CD16818003880FA /* MingoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3C71D77D1CD16818003880FA /* Build configuration list for PBXNativeTarget "MingoUITests" */;
+			buildPhases = (
+				3C71D76A1CD16818003880FA /* Sources */,
+				3C71D76B1CD16818003880FA /* Frameworks */,
+				3C71D76C1CD16818003880FA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3C71D7701CD16818003880FA /* PBXTargetDependency */,
+			);
+			name = MingoUITests;
+			productName = MingoUITests;
+			productReference = 3C71D76E1CD16818003880FA /* MingoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3C71D7431CD16818003880FA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = ian;
+				TargetAttributes = {
+					3C71D74A1CD16818003880FA = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = 2BHJ49KRHH;
+						SystemCapabilities = {
+							com.apple.Push = {
+								enabled = 1;
+							};
+							com.apple.iCloud = {
+								enabled = 1;
+							};
+						};
+					};
+					3C71D7621CD16818003880FA = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 3C71D74A1CD16818003880FA;
+					};
+					3C71D76D1CD16818003880FA = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 3C71D74A1CD16818003880FA;
+					};
+				};
+			};
+			buildConfigurationList = 3C71D7461CD16818003880FA /* Build configuration list for PBXProject "Mingo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3C71D7421CD16818003880FA;
+			productRefGroup = 3C71D74C1CD16818003880FA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3C71D74A1CD16818003880FA /* Mingo */,
+				3C71D7621CD16818003880FA /* MingoTests */,
+				3C71D76D1CD16818003880FA /* MingoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3C71D7491CD16818003880FA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C71D75D1CD16818003880FA /* LaunchScreen.storyboard in Resources */,
+				3C71D75A1CD16818003880FA /* Assets.xcassets in Resources */,
+				3C71D7581CD16818003880FA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C71D7611CD16818003880FA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C71D76C1CD16818003880FA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3C71D7471CD16818003880FA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C71D7881CD17A34003880FA /* HelpScene.swift in Sources */,
+				3C71D7531CD16818003880FA /* MenuScene.swift in Sources */,
+				3C71D7551CD16818003880FA /* GameViewController.swift in Sources */,
+				3C71D7861CD178A2003880FA /* FinderScene.swift in Sources */,
+				3C71D74F1CD16818003880FA /* AppDelegate.swift in Sources */,
+				3C71D7841CD17749003880FA /* Globals.swift in Sources */,
+				3C71D7821CD17683003880FA /* Button.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C71D75F1CD16818003880FA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C71D7681CD16818003880FA /* MingoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C71D76A1CD16818003880FA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C71D7731CD16818003880FA /* MingoUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3C71D7651CD16818003880FA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3C71D74A1CD16818003880FA /* Mingo */;
+			targetProxy = 3C71D7641CD16818003880FA /* PBXContainerItemProxy */;
+		};
+		3C71D7701CD16818003880FA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3C71D74A1CD16818003880FA /* Mingo */;
+			targetProxy = 3C71D76F1CD16818003880FA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3C71D7561CD16818003880FA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3C71D7571CD16818003880FA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3C71D75B1CD16818003880FA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3C71D75C1CD16818003880FA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3C71D7751CD16818003880FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3C71D7761CD16818003880FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3C71D7781CD16818003880FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Mingo/Mingo.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = Mingo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = imaginary.Mingo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		3C71D7791CD16818003880FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Mingo/Mingo.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = Mingo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = imaginary.Mingo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		3C71D77B1CD16818003880FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				INFOPLIST_FILE = MingoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = imaginary.MingoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Mingo.app/Mingo";
+			};
+			name = Debug;
+		};
+		3C71D77C1CD16818003880FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MingoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = imaginary.MingoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Mingo.app/Mingo";
+			};
+			name = Release;
+		};
+		3C71D77E1CD16818003880FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				INFOPLIST_FILE = MingoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = imaginary.MingoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Mingo;
+			};
+			name = Debug;
+		};
+		3C71D77F1CD16818003880FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = MingoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = imaginary.MingoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Mingo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3C71D7461CD16818003880FA /* Build configuration list for PBXProject "Mingo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C71D7751CD16818003880FA /* Debug */,
+				3C71D7761CD16818003880FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3C71D7771CD16818003880FA /* Build configuration list for PBXNativeTarget "Mingo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C71D7781CD16818003880FA /* Debug */,
+				3C71D7791CD16818003880FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3C71D77A1CD16818003880FA /* Build configuration list for PBXNativeTarget "MingoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C71D77B1CD16818003880FA /* Debug */,
+				3C71D77C1CD16818003880FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3C71D77D1CD16818003880FA /* Build configuration list for PBXNativeTarget "MingoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C71D77E1CD16818003880FA /* Debug */,
+				3C71D77F1CD16818003880FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3C71D7431CD16818003880FA /* Project object */;
+}
