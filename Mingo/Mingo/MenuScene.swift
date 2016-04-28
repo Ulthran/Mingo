@@ -4,6 +4,8 @@ class MenuScene: SKScene {
     let muteSlash = SKShapeNode(rect: CGRect(x: 0, y: 0, width: 5, height: 50))
     
     override func didMoveToView(view: SKView) {
+        self.backgroundColor = SKColor.blueColor()
+        
         let finder = Button(text: "Find Bathrooms", color: SKColor.blueColor()) { //button to go to bathroom finder scene
             let scene = FinderScene(size: self.size)
             
@@ -12,6 +14,8 @@ class MenuScene: SKScene {
         finder.position = CGPoint(x: self.frame.midX, y: 3 * self.frame.maxY / 5)
         finder.name = "Game Button" //for debug identification
         finder.zPosition = 3
+        //finder.label.fontColor = SKColor.greenColor()
+        //Make a get/set for label in Button
         
         let help = Button(text: "Help", color: SKColor.blueColor()) { //button to go to help/info scene
             let scene = HelpScene(size: self.size)
